@@ -1,0 +1,30 @@
+spring:
+  mongodb:
+    uri: mongodb+srv://Cluster85641:YW5ndXhnYFxG@cluster85641.wkvssub.mongodb.net/?appName=Cluster85641
+    database: transactionorders
+  application:
+    name: transactionorderservice
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+  health:
+    mongo:
+      enabled: false
+logging:
+  level:
+    com:
+      transactionorder: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
+  file:
+    name: logs/transactionorder.log
+    path: ./logs
+server:
+  port: 8043
