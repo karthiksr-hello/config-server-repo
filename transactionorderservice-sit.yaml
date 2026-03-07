@@ -1,7 +1,7 @@
 spring:
   mongodb:
-    uri: mongodb+srv://Cluster85641:YW5ndXhnYFxG@cluster85641.wkvssub.mongodb.net
-    database: transactionorders
+    uri: mongodb+srv://regussm:pA3a0RCt2RI5cewM@emexo.en2dxtv.mongodb.net
+    database: bankingmanagement
   datasource:
     username: postgres
     password: IndiaUSA123
