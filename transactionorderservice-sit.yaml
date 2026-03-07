@@ -1,12 +1,7 @@
-#spring:
-#  mongodb:
-#    uri: mongodb+srv://Cluster85641:YW5ndXhnYFxG@cluster85641.wkvssub.mongodb.net
-#    database: transactionorders
 spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://Cluster85641:YW5ndXhnYFxG@cluster85641.wkvssub.mongodb.net
-      database: transactionorders
+  mongodb:
+    uri: mongodb+srv://Cluster85641:YW5ndXhnYFxG@cluster85641.wkvssub.mongodb.net
+    database: transactionorders
   datasource:
     username: postgres
     password: IndiaUSA123
