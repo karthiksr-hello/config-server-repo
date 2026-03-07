@@ -1,6 +1,6 @@
 spring:
   mongodb:
-    uri: mongodb+srv://Cluster85641:YW5ndXhnYFxG@cluster85641.wkvssub.mongodb.net
+    uri: mongodb://admin:StrongPassword123@localhost:27017/?authSource=admin
     database: transactionorders
   datasource:
     username: postgres
